@@ -1,0 +1,66 @@
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ff7200;
+  text-align: center;
+  text-decoration-line: underline;
+}
+body{
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+  font-family: sans-serif;
+}
+h2{
+  color: #ff7200;
+}
+.One{
+  /* text-shadow: 0px 0px 5px yellow ,0px -5px 5px red; */
+    box-shadow: 5px 5px 5px black;
+    font-size: 32px;
+    background-color: gray;
+    color: black;
+}
+.Two{
+  box-shadow: 5px 5px 5px black;
+font-size: 32px;
+background-color: gray;
+color: black;
+}
+.Three{
+  box-shadow: 5px 5px 5px black;
+  font-size: 32px;
+  background-color: gray;
+  color: black;
+}
+.Four{
+  box-shadow: 5px 5px 5px black;
+  font-size: 32px;
+  background-color: gray;
+  color: black;
+}
+.Five{
+  box-shadow: 5px 5px 5px black;
+  font-size: 32px;
+  background-color: gray;
+  color: black;
+}
+.Six{
+  box-shadow: 5px 5px 5px black;
+  font-size: 32px;
+  background-color:  gray;
+  color: black;
+}
+.Seven{
+  box-shadow: 5px 5px 5px black;
+  font-size: 32px;
+  background-color: gray;
+  color: black;
+}
+.Eight{
+  box-shadow: 5px 5px 5px black;
+  font-size: 32px;
+  background-color: gray;
+  color: black;
+}
+.Nine{
+  font-size: 30px;
+
+}
