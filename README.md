@@ -55,7 +55,7 @@ You only need a modern web browser like Google Chrome, Mozilla Firefox, or Micro
 
 1.  Clone the repository to your local machine:
     ```sh
-    git clone [https://github.com/AnvithGangula/SkyPredictor.git](https://github.com/AnvithGangula/SkyPredictor.git)
+    git clone https://github.com/AnvithGangula/SkyPredictor
     ```
 2.  Navigate to the project directory:
     ```sh
@@ -80,32 +80,36 @@ You only need a modern web browser like Google Chrome, Mozilla Firefox, or Micro
 
 The project directory is structured as follows:
 
-SkyPredictor/
-├── About.css
-├── About.html
-├── Authentication_Outline.png
-├── Authentication_Two Color (1).png
-├── Authentication_Two Color.png
-├── Contact.css
-├── Contact.html
-├── Contact.js
-├── HomePage.css
-├── HomePage.html
-├── index.html
-├── Login.css
-├── Login.html
-├── Login.js
-├── Map.html
-├── Profiling_Monochromatic.png
-├── Register.css
-├── Register.html
-├── Register.js
-├── script.js
-├── style.css
-├── images.jpeg
-├── weather.jpg
-└── README.md
+## 📂 Project Structure
 
+The repository is structured to separate different parts of the application:
+
+| File/Directory | Description |
+| :--- | :--- |
+| `index.html` | The main entry point or a landing page for the application. |
+| `style.css` | Global styling for the application. |
+| `script.js` | Global utility JavaScript functions. |
+| **Home Page** | |
+| `HomePage.html` | The main weather display and application dashboard. |
+| `HomePage.css` | Styling specific to the main home page. |
+| **Authentication** | |
+| `Login.html`, `Login.css`, `Login.js` | Files for the user login interface and logic. |
+| `Register.html`, `Register.css`, `Register.js` | Files for the user registration/sign-up interface and logic. |
+| **Other Pages** | |
+| `About.html`, `About.css` | Information page about the project or application. |
+| `Contact.html`, `Contact.css`, `Contact.js` | Page and logic for users to contact the developers or support. |
+| `Map.html` | Likely a dedicated page for an interactive weather map. |
+| **Assets** | |
+| `Authentication_Outline.png`, `Authentication_Two Color.png`, etc. | Images used for branding, authentication pages, or UI elements. |
+| `Profiling_Monochromatic.png` | Image possibly related to user profiling or settings. |
+| `images.jpeg`, `weather.jpg` | General images/backgrounds used in the application. |
+
+## ✨ Features
+
+* **User Authentication:** Full Login and Registration workflow.
+* **Intuitive Interface:** Dedicated Home, About, and Contact pages.
+* **Weather Visualization:** Integration for displaying weather data (likely via `HomePage.html`).
+* **Interactive Map:** A dedicated page (`Map.html`) for geographical weather representation.
 ### 🗺️ **Roadmap**
 
 * [ ] Integrate a live weather API to fetch and display real-time weather data.
